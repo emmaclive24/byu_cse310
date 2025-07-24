@@ -1,0 +1,3 @@
+﻿  TodoApp.cpp
+C:\Users\EMMAT\source\repos\TodoApp\TodoApp.cpp(122,1): warning C4715: 'searchData': not all control paths return a value
+  TodoApp.vcxproj -> C:\Users\EMMAT\source\repos\TodoApp\x64\Debug\TodoApp.exe
