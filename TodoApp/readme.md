@@ -10,7 +10,7 @@ The To-Do List application allows users to create, manage, edit, and delete task
 
 The primary goal of this software was to reinforce concepts around C++ syntax, memory safety, class structures, and interaction with external files for data storage.
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video]( https://www.youtube.com/watch?v=BvxO-B3PM1M)
 
 # Development Environment
 
