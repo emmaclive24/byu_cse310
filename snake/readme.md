@@ -7,7 +7,7 @@ The game operates by continuously updating a 2D grid where the player controls a
 
 This project provided me with hands-on experience in managing the game state, real-time keyboard input with `Console.KeyAvailable`, efficient use of data structures like `List<T>`, and implementing basic game physics in a non-graphical environment. It also served as a platform for refining my understanding of enums, switch-case logic, object instantiation, and random number generation in C#.
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/_xeEOOd1Xa0) 
 
 # Development Environment
 
