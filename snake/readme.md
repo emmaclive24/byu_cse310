@@ -129,6 +129,7 @@ UML DIAGRAM
 
 
 
+<img width="1309" height="880" alt="snake_game_uml" src="https://github.com/user-attachments/assets/31b9e0fc-c95b-4134-be44-a5fe871a952c" />
 
 
 
