@@ -2,7 +2,7 @@ I created a simple "Hello, World!" application. This project serves as a hands-o
 
 The software outputs a greeting message—"Hello, World!"—to the console, demonstrating successful compilation and execution.
 
-( Demo Video]  (https://www.youtube.com/watch?v=Icarux6L4tU)
+( Demo Video]  (https://youtu.be/_xeEOOd1Xa0)
 
 # Development Environment
 
