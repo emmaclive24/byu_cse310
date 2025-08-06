@@ -1,9 +1,31 @@
-# Custom HTML Video Player 
+# Overview
 
-## Overview
-This is a custom HTML5 video player built with HTML, CSS, and JavaScript. It provides a modern, user-friendly interface with essential video playback features, styled using custom CSS with a clean and responsive design. The player is designed to work in modern web browsers and supports a variety of controls for an enhanced viewing experience.
+This project is a **Custom HTML5 Video Player** developed to deepen my understanding of the JavaScript language and its application in building interactive web interfaces. As a web development student, my goal was to create a feature-rich, responsive video player without relying on external libraries, using only HTML, CSS, and JavaScript. 
 
-## Features
+Through this project, I explored DOM manipulation, event handling, media API controls, and responsive design techniques. The end result is a customizable, accessible video player that mimics modern media controls with a clean UI and smooth user experience.
+
+[Software Demo Video](https://youtu.be/4qC470xvVoQ ) 
+
+# Development Environment
+
+- **Code Editor:** Visual Studio Code  
+- **Browser for Testing:** Google Chrome, Firefox  
+- **Version Control:** Git + GitHub  
+- **Design Tools:** Figma (for UI planning)
+
+**Languages and Tools Used:**
+- HTML5 – For structure and embedding the `<video>` element.
+- CSS3 – For styling the player interface and responsiveness.
+- JavaScript (Vanilla) – To handle playback controls, events, and dynamic UI updates.
+
+# Useful Websites
+
+- [MDN Web Docs – HTML Video Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video)
+- [W3Schools – HTML5 Video](https://www.w3schools.com/html/html5_video.asp)
+- [CSS Tricks – Creating a Custom Video Player](https://css-tricks.com/custom-controls-in-html5-video-full-screen/)
+- [JavaScript Info – Event Handling](https://javascript.info/introduction-browser-events)
+
+  
 - **Play/Pause**: Toggle video playback with a button or by clicking the video.
 - **Progress Bar**: Seek to specific points in the video by clicking or dragging the progress bar, with a hover preview of the time.
 - **Volume Control**: Adjust volume using a slider or mute/unmute with a button.
@@ -33,18 +55,13 @@ This is a custom HTML5 video player built with HTML, CSS, and JavaScript. It pro
 - **Poster Image**: Replace the `poster` attribute in the `<video>` tag with your own image URL for the video thumbnail.
 - **Additional Features**: Extend the JavaScript to add features like keyboard shortcuts, quality selection, or custom controls.
 
-## Notes
-- **Dependencies**: No external dependencies are required, as all styling and functionality are implemented with vanilla HTML, CSS, and JavaScript.
-- **Limitations**:
-  - The captions feature is a placeholder and requires a WebVTT file for full functionality.
-  - Some browsers may restrict autoplay or fullscreen when not hosted on a server due to security policies.
-- **Debugging**: Open the browser's developer tools (F12) to check the console for errors if any functionality doesn't work as expected.
-- **Video Source**: a video from BYU class on creating a github repository
 
-## Troubleshooting
-- **Controls Not Working**: Ensure the video file is accessible and the browser supports HTML5 video. Check the console for errors.
-- **Fullscreen Issues**: Some browsers require the page to be served over HTTP/HTTPS for fullscreen to work.
-- **Duration Display Errors**: If the duration shows incorrectly, verify the video file's metadata is valid and the `loadedmetadata` event is firing.
-- **Performance**: For large videos, ensure your server supports range requests to enable smooth seeking.
+# Future Work
 
-For further assistance or feature requests, feel free to modify the code or reach out for support!
+- Add real subtitle support using WebVTT format and `<track>` elements.
+- Implement keyboard accessibility (e.g., spacebar to play/pause, arrow keys to seek).
+- Add quality selection options (e.g., 480p, 720p, 1080p).
+- Enhance styling with animated transitions for better user experience.
+- Add dark mode support and theme toggling.
+- Save user preferences (volume, speed) using localStorage.
+
