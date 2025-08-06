@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Player</title>
+<link rel="stylesheet" href="/styles/video.css">
+<script src="/script/video.js" ></script>
+</head>
+
+
+<body>
+    <div class="video-player-container">
+        <div class="video-container">
+            <video class="video" poster="https://via.placeholder.com/800x450">
+                <source src="/assets/js player.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="loading-spinner"></div>
+            <div class="captions"></div>
+        </div>
+        <div class="controls">
+            <div class="progress-container">
+                <div class="progress-bar">
+                    <div class="progress-time">00:00</div>
+                </div>
+            </div>
+
+            <div class="buttons-container">
+                <div class="left-controls">
+                    <button class="control-btn play-btn" title="Play/Pause">▶</button>
+                    <button class="control-btn mute-btn" title="Mute">🔊</button>
+                    <div class="volume-container">
+                        <input type="range" class="volume-slider" min="0" max="1" step="0.01" value="1" title="Volume">
+                    </div>
+                    <span class="time-display">00:00 / 00:00</span>
+                </div>
+
+                <div class="right-controls">
+                    <button class="control-btn captions-btn" title="Subtitles">CC</button>
+                    <div class="settings-menu">
+                        <button class="control-btn settings-btn" title="Settings">⚙️</button>
+                        <div class="settings-content">
+                            <div class="settings-item playback-speed" data-speed="0.5">0.5x</div>
+                            <div class="settings-item playback-speed" data-speed="0.75">0.75x</div>
+                            <div class="settings-item playback-speed active" data-speed="1">Normal</div>
+                            <div class="settings-item playback-speed" data-speed="1.25">1.25x</div>
+                            <div class="settings-item playback-speed" data-speed="1.5">1.5x</div>
+                            <div class="settings-item playback-speed" data-speed="2">2x</div>
+                        </div>
+                    </div>
+                    <button class="control-btn fullscreen-btn" title="Fullscreen">⛶</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
